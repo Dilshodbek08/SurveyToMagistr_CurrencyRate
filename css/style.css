@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #604685;
+  scroll-behavior: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.container {
+  width: 1200px;
+  height: 535px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-image: url("../img/dd.jpg");
+  background-repeat: no-repeat;
+  background-size: 1300px 520px;
+}
+
+.heading {
+  padding: 0;
+  padding-top: 30px;
+  font-size: 42px;
+  color: #ffffff;
+}
+
+.converter {
+  margin: 20px 0;
+  display: flex;
+  align-items: top;
+  justify-content: start;
+}
+
+.cInput {
+  width: 200px;
+  height: 20px;
+  margin: 0 20px 0 0;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 6px;
+}
+
+.rates {
+  width: 100px;
+  padding: 5px 5px;
+  border-radius: 6px;
+}
+
+.converter-uzs {
+  margin: 20px 0;
+  display: flex;
+  align-items: top;
+  justify-content: start;
+  border-radius: 6px;
+}
+
+.cuInput {
+  width: 200px;
+  height: 20px;
+  margin: 0 20px 0 0;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+.cuSelect {
+  width: 100px;
+  padding: 5px 5px;
+  border-radius: 6px;
+}
+
+.cvBtn {
+  width: 340px;
+  height: 30px;
+  font-size: 18px;
+  color: #462D64;
+  background-color: rgb(212, 212, 212);
+  border: none;
+  border-radius: 6px;
+}
+
+.cInput,
+.cuInput,
+.cuSelect,
+.rates:focus {
+  outline: none;
+  border: none;
+}
+
+.currency1, .currency2, .currency3, .currency4, .currency5, .currency6, .currency7{
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
+  font-size: 20px;
+  color: #462D64;
+}
+
+.amounts {
+  width: 310px;
+  margin: 0;
+  padding: 0;
+  margin-top: 50px;
+  padding: 20px 20px 10px 10px;
+  background-color: #fff;
+  background-color: rgb(212, 212, 212);
+  border-radius: 10px;
+}
+
+.survey{
+  width: 500px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  padding: 10px 10px 20px 20px;
+  background-color: #462D64;
+  border-radius: 10px;
+}
+
+label{
+  margin: 15px 0;
+  display: block;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+#SubBtn{
+  font-size: 18px;
+}
+
+.output{
+  margin: 0 0 0 50px;
+  
+  font-size: 22px;
+  color: #ffffff;
+}

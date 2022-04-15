@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exchange Rate</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="convert">
+      <h2 class="heading">Currency converte</h2>
+
+      <div class="converter">
+        <input type="number" class="cInput" placeholder="1.00">
+
+        <select class="rates array">
+          <option class="cOption" type="number" value="uzs">UZS</option>
+          <option class="cOption" type="number" value="usd">USD</option>
+          <option class="cOption" type="number" value="eur">EUR</option>
+          <option class="cOption" type="number" value="rub">RUB</option>
+          <option class="cOption" type="number" value="gbp">GBP</option>
+          <option class="cOption" type="number" value="chf">CHF</option>
+          <option class="cOption1" type="number" value="jpy">JPY<option>
+        </select>
+      </div>
+
+      <button class="cvBtn">Convert ⇋</button>
+    </div>
+
+    <div class="amounts">
+      <p class="currency1">UZS = <span class="uzs"></span></p>
+      <p class="currency2">USD = <span class="usd"></span></p>
+      <p class="currency3">EUR = <span class="eur"></span></p>
+      <p class="currency4">RUB = <span class="rub"></span></p>
+      <p class="currency5">GBP = <span class="gbp"></span></p>
+      <p class="currency6">CHF = <span class="chf"></span></p>
+      <p class="currency7">JPY = <span class="jpy"></span></p>
+    </div>
+
+    <div class="survey">
+
+      <label for="degree">Do you have bachelor's degree?
+        <input type="checkbox" id="Degree" value="degree">
+      </label>
+      <label for="SAT">Are you have LSAT score?
+        <input type="checkbox" id="LSAT" value="SAT">
+      </label>
+      <label for="school">Did you do well in school?
+        <input type="checkbox" id="School" value="school">
+      </label>
+      <label for="volunter">Have you been involved in charity work?
+        <input type="checkbox" id="Volunter" value="volunter">
+      </label>
+      <label for="Planguage">Do you know any programming language?
+        <input type="checkbox" id="ProgrammingLanguage" value="Planguage">
+      </label>
+      <label for="architeckture">Do you know Computer Architerture?
+        <input type="checkbox" id="CompArch" value="architeckture">
+      </label>
+
+      <button type="button" id="SubBtn">Let's check your Level to Magitsrate</button>
+
+      <output class="output"></output>
+    </div>
+  </div>
+
+  <script src="./JavaScript/main.js"></script>
+</body>
+
+</html>
