@@ -247,7 +247,7 @@ btn.addEventListener("click", function (e) {
   var CompAr = elCompAr.checked;
   var message = "";
 
-  if ((deg && lsat) ||(deg && lsat && CompAr) || (deg && CompAr) || (CompAr && !Vol && !PLan && !Schol) || (CompAr && !Schol)) {
+  if ((deg) ||(deg && lsat) ||(deg && lsat && CompAr) || (deg && CompAr) || (CompAr && !Vol && !PLan && !Schol) || (CompAr && !Schol)) {
     message = "Yes, you can :)"
   } else {
     message = "No, you can't :("
